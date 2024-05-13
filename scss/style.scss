@@ -1,0 +1,68 @@
+// 공통 변수
+$colorBlue : #19355b;
+$colorBlack : #333333;
+$colorGary : #888888;
+$colorGaryDark : #666666;
+
+$px16 : 16px;
+$px26 : 26px;
+$px16_md : 14px;
+$px26-md : 22px;
+
+
+#hd {
+    .container {
+        justify-content: space-between;
+        .gnb {
+            margin-left: $px16;
+            @media (max-width:768px) {
+                margin-left: $px16_md; 
+            }
+            li {
+                margin-left: $px26;
+                a {
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+        }
+        .promotion_gnb {
+            margin-left: $px16;
+            margin-right: auto;
+            li {
+                margin-left: $px26;
+                a {
+                    color: $colorGary;
+                    font-weight: 500;
+                }
+            }
+        }
+        .icon_menu {
+            li {
+                margin-left: $px16;
+                svg {
+                    width: 20px;
+                    color: $colorGary;
+                }
+                .search_form {                    
+                    background-color: #eee;
+                    border-radius: 18px;
+                    padding: 5px 12px;
+                    input {
+                        border: 0;
+                        background-color: transparent;
+                        font-size: 13px;
+                        &::placeholder {
+                            color: $colorGary;
+                        }
+                    }
+                    button {
+                        padding: 0;
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,6 +4,35 @@ $colorBlack : #333333;
 $colorGary : #888888;
 $colorGaryDark : #666666;
 
-body {
+body * {
     font-family: "Noto Sans KR", sans-serif;
+    color: $colorBlack;
+    letter-spacing: -0.9px;
+}
+
+.container {
+    max-width: 1824px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.sr_only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
 }
