@@ -1,5 +1,5 @@
 #hd .container {
-  justify-content: space-between;
+  padding: 0 20px;
 }
 #hd .container .gnb {
   margin-left: 16px;
