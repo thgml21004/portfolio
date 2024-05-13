@@ -5,11 +5,15 @@ body * {
 }
 
 .container {
-  max-width: 1824px;
+  max-width: 1820px;
 }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  margin: 0;
 }
 
 ul {

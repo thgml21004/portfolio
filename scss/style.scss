@@ -10,9 +10,9 @@ $px16_md : 14px;
 $px26-md : 22px;
 
 
-#hd {    
+#hd {
     .container {
-        padding: 0 20px;
+        padding: 11px 20px;
         .gnb {
             margin-left: $px16;
             @media (max-width:768px) {
